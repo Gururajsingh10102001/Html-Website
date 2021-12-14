@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --navbar-height:59px;
+
+}
+#navbar
+{
+    position: relative;
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+}
+#logo
+{
+
+margin: 10px 34px;
+}
+
+#logo img
+{   height: 56px;
+    margin: 3px 6px;
+   
+
+}
+ #navbar ul 
+{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.3;
+}
+#navbar ul li{
+  list-style: none;
+  font-size: 1.3rem;
+  font-family: 'Baloo Bhai', cursive;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    color: white;
+
+    list-style: none;
+    font-size: 1.3rem;
+  border-radius: 20px;
+  text-decoration: Null;
+  }
+  #navbar ul li a:hover{
+      color: black;
+      background-color: white;
+  }
+  #home
+  {
+      display: flex;
+      flex-direction: column;
+      padding: 3px 200px;
+      height: 400px;
+      justify-content: center;
+      align-items: center;
+  }
+  #home::before{
+    content: "";
+    position: absolute;
+ background: url('../images/books1_bg.jpg')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+  }
+  #home h1{
+      color: white;
+      text-align: center;
+      font-size: 3.8rem;
+  }
+  #home p{
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+
+  }
+
+.h.primary
+{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.h.secondary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.btn 
+{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+     margin: 17px;
+     font-size: 1.5rem;
+     border-radius: 20px;
+     cursor: pointer;
+  }
+ .center
+ {
+     text-align: center;
+ }
+ footer{
+     margin: 70px;
+     background-color: rgb(0, 0, 0);
+     color: white;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+body{
+    background-color: #F0E9D2;
+  }
+    hr{
+      background-color:white;
+      border-style:none;
+  
+      width: 100%;
+      border-style:dotted none none none;
+      border-color: grey;
+      border-width:5px;
+    }
+    h1
+    {
+      color:#B3541E ;
+    }
+    h3
+    {
+      color:#B91646;
+    }
+.container
+{
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    background-color:#F0E9D2 ;
+    column-span: 60px;
+}
+* {
+	outline: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:link 
+{
+    text-decoration: none;
+}
